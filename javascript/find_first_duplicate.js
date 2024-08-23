@@ -1,7 +1,7 @@
 function findFirstDuplicate(arr) {
   // type your code here
   const num_read = {};
-  for (num of arr) {
+  for (const num of arr) {
     if (num_read[num]) 
       return num;
     else
